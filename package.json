@@ -1,6 +1,6 @@
 {
   "name": "dsh-android-agent",
-  "description": "Android phone test automation for the dsh web GUI: persist phone-agent devices (~/.dsh/dsh-phone.json), keep WebSocket connections to the on-phone agent, drive JSON-RPC methods (openApp / tap / inputText / swipe / screenshot / getUI) from the web panel, and expose phone testing tools to agents (phone_list, phone_rpc, phone_open_app, phone_tap, phone_input, phone_screenshot, phone_get_ui, phone_keyevent, phone_swipe). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes.",
+  "description": "Android phone test automation for the dsh web GUI: persist phone-agent devices (~/.dsh/dsh-phone.json), keep WebSocket connections to the on-phone agent, drive JSON-RPC methods (openApp / tap / inputText / swipe / screenshot / getUI) from the web panel, and expose phone testing tools to agents (phone_list, phone_rpc, phone_open_app, phone_tap, phone_input, phone_swipe, phone_keyevent, phone_screenshot, phone_get_ui, phone_ui_find, phone_ui_tap, phone_ui_input, phone_ui_back). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes.",
   "version": "0.1.0",
   "type": "module",
   "packageManager": "pnpm@11.7.0",
@@ -83,6 +83,6 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhu1090093659/dsh-web-ui.git"
+    "url": "https://github.com/ravenli059/dsh-android-agent.git"
   }
 }
